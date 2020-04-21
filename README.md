@@ -1,11 +1,18 @@
 # WOOF WOOF WELCOME TO DOGGO BARK BARK
 
-THIS GOOD APPLICATION FOR LOOKING AT DOGS BOW WOW
+You may remember this from Mod 3!
+There's less base code here - use what you know about React to make this application work like your Mod 3 one did.
+Think about what components you'll need, what you need to keep in state.  Draw out a quick sketch if it helps!
+Below are the instructions from the vanilla JS readme...how will you need to change it to suit a React Application?
+ 
 
-WHEN LOOKING AT PUP PUPS USER SHOULD BE ABLE TO:
+
+## Deliverables
+User should be able to:
  - CLICK ON DOGS IN THE DOG BAR TO SEE MORE INFO ABOUT THE GOOD PUPPER
    - MORE INFO INCLUDES A DOG PIC, A DOG NAME, AND A DOG BUTTON THAT INDICATES
      WHETHER IT IS A GOOD DOG OR A BAD DOG
+
  - CLICK ON GOOD DOG/BAD DOG BUTTON IN ORDER TO TOGGLE PUP GOODNESS
  - CLICK ON "FILTER GOOD DOGS" BUTTON IN ORDER TO JUST SEE GOOD DOGS OR SEE
    ALL DOGS IN DOG BAR
