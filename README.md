@@ -48,8 +48,11 @@ User should be able to:
 
 On the page, there is a `div` with the id of `"dog-bar"`. On page load, make a
 fetch to get all of the pup objects. When you have this information, you'll need
-to add a `span` with the pup's name to the dog bar (ex:
-`<span>Mr. Bonkers</span>`).
+to add a `span` with the pup's name to the dog bar.
+
+```html
+<span>Mr. Bonkers</span>
+```
 
 ### STEP 2: SHOW MORE INFO ABOUT EACH PUP
 
@@ -63,10 +66,10 @@ have the following children:
 - a `button` that says `"Good Dog!"` or `"Bad Dog!"` based on whether
   `isGoodDog` is true or false. Ex:
 
-```
- <img src=dog_image_url>
- <h2>Mr. Bonkers</h2>
- <button>Good Dog!</button>
+```html
+<img src="dog_image_url" alt="Mr. Bonkers" />
+<h2>Mr. Bonkers</h2>
+<button>Good Dog!</button>
 ```
 
 ### STEP 3: TOGGLE GOOD DOG
