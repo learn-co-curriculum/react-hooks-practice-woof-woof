@@ -1,20 +1,22 @@
 {
-  "name": "woof-woof-react",
+  "name": "react-hooks-practice-woof-woof",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "json-server --watch db.json -p 3001 & open http://localhost:3001/pups & react-scripts start && fg"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
