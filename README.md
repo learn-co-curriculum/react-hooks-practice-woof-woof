@@ -1,4 +1,4 @@
-# WOOF WOOF WELCOME TO DOGGO BARK BARK
+# Practice Challenge: WOOF WOOF
 
 You may remember this from Mod 3!
 
