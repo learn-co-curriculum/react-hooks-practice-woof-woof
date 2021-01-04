@@ -42,7 +42,7 @@ User should be able to:
 
 ## EXAMPLE:
 
-![Showcasing the full functionality](woof-woof-demo.gif)
+![Showcasing the full functionality](https://github.com/learn-co-curriculum/react-hooks-practice-woof-woof/raw/master/woof-woof-demo.gif)
 
 ### STEP 1: SHOW PUPS IN DOG BAR
 
