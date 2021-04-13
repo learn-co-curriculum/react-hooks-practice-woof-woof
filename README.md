@@ -19,8 +19,9 @@ be using `json-server` to create a RESTful API for our database.
 
 Run `npm install` to install our dependencies.
 
-Then, run `npm start` to start up `json-server` on `http://localhost:3001/pups`
-alongside our React app at `http://localhost:3000`.
+Then, run `npm run server` to start up `json-server` on `http://localhost:3001`.
+
+In another tab, run `npm start` to start up our React app at `http://localhost:3000`.
 
 Go ahead and head to `http://localhost:3001/pups` in your browser to view the data.
 
@@ -40,7 +41,7 @@ User should be able to:
 - CLICK ON "FILTER GOOD DOGS" BUTTON IN ORDER TO JUST SEE GOOD DOGS OR SEE
   ALL DOGS IN DOG BAR
 
-## EXAMPLE:
+## EXAMPLE
 
 ![Showcasing the full functionality](https://github.com/learn-co-curriculum/react-hooks-practice-woof-woof/raw/master/woof-woof-demo.gif)
 
