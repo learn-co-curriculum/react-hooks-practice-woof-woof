@@ -1,9 +1,9 @@
 # Practice Challenge: WOOF WOOF
 
-You may remember this from Mod 3!
+You may remember this from Phase 1!
 
 There's less base code here - use what you know about React to make this
-application work like your Mod 3 one did.
+application work like your Phase 1 one did.
 
 Think about what components you'll need, what you need to keep in state. Draw
 out a quick sketch if it helps! There's a bit of starter code in `src/App.js`.
