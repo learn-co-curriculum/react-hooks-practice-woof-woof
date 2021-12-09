@@ -25,7 +25,8 @@ In another tab, run `npm start` to start up our React app at `http://localhost:3
 
 Go ahead and head to `http://localhost:3001/pups` in your browser to view the data.
 
-Familiarize yourself with the attributes for each pup. Try going to `/pups/:id` to see an individual pup as well.
+Familiarize yourself with the attributes for each pup. Try going to `/pups/:id`
+to see an individual pup as well.
 
 ## Deliverables
 
@@ -78,7 +79,8 @@ have the following children:
 When a user clicks the Good Dog/Bad Dog button, two things should happen:
 
 - The button's text should change from Good to Bad or Bad to Good
-- The corresponding pup object in the database should be updated to reflect the new isGoodDog value
+- The corresponding pup object in the database should be updated to reflect the
+  new isGoodDog value
   - Please note, you can update a dog by making a PATCH request to `/pups/:id`
 
 ### BONUS! STEP 4: FILTER GOOD DOGS
