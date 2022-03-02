@@ -1,4 +1,4 @@
-# Practice Challenge: WOOF WOOF
+# [Optional] Practice Challenge: WOOF WOOF
 
 You may remember this from Phase 1!
 
