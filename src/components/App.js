@@ -5,11 +5,12 @@ import DogInfo from "./DogInfo";
 
 function App() {
   const [selectedDog, setSelectedDog] = useState({});
+  const [isFiltered, setIsFiltered] = useState(false);
 
   return (
     <div className="App">
-      <Filter />
-      <DogBar handleClick={setSelectedDog} />
+      <Filter isFiltered={isFiltered} setIsFiltered={setIsFiltered} />
+      <DogBar handleClick={setSelectedDog} isFiltered={isFiltered} />
       <DogInfo selectedDog={selectedDog} />
     </div>
   );
