@@ -1,10 +1,10 @@
 import Dog from "./Dog";
 
-function DogContainer({ doggos, toggleProfileVisibility }) {
+function DogContainer({ doggos, onDogClick }) {
   return (
     <div id="dog-bar">
       {doggos.map((doggo) => (
-        <Dog {...{ doggo, toggleProfileVisibility }} key={doggo.id} />
+        <Dog {...{ doggo, onDogClick }} key={doggo.id} />
       ))}
     </div>
   );
