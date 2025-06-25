@@ -27,7 +27,7 @@
     {
       "id": 5,
       "name": "Lucipher",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_5.jpg"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg"
     },
     {
