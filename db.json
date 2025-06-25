@@ -33,7 +33,7 @@
     {
       "id": 6,
       "name": "Snooper Pooper",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg"
     },
     {
@@ -45,13 +45,13 @@
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg"
     },
     {
       "id": 9,
       "name": "Middens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_2.jpg"
     },
     {
