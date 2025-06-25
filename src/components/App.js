@@ -11,6 +11,7 @@ function App() {
   };
   const [doggos, setDoggos] = useState([]);
   const [doggoToShow, setDoggoToShow] = useState(blankDoggo);
+  const [isFilteringGoodDogs, setIsFilteringGoodDogs] = useState(false);
   const onDogClick = (doggo) => {
     setDoggoToShow(doggo);
   };
@@ -19,7 +20,7 @@ function App() {
       .then((r) => r.json())
       .then(setDoggos);
   }, []);
-  const toggleGoodDogStatus = (doggo) => {
+  const toggleIsGoodDog = (doggo) => {
     fetch(`http://localhost:3001/pups/${doggo.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
@@ -38,11 +39,20 @@ function App() {
         }
       });
   };
+  const onGoodDogFilterClick = () => {
+    setIsFilteringGoodDogs(!isFilteringGoodDogs);
+  };
+  const filterDoggos = (doggos) => {
+    if (isFilteringGoodDogs) {
+      return doggos.filter((doggo) => doggo.isGoodDog);
+    }
+    return doggos;
+  };
   return (
     <div className="App">
-      <Filter />
-      <DogContainer {...{ doggos, onDogClick }} />
-      <DogProfile {...{ doggoToShow, toggleGoodDogStatus }} />
+      <Filter {...{ onGoodDogFilterClick, isFilteringGoodDogs }} />
+      <DogContainer {...{ doggos: filterDoggos(doggos), onDogClick }} />
+      <DogProfile {...{ doggoToShow, toggleIsGoodDog }} />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-function DogProfile({ doggoToShow, toggleGoodDogStatus }) {
+function DogProfile({ doggoToShow, toggleIsGoodDog }) {
   return (
     <div id="dog-summary-container">
       <h1>DOGGO:</h1>
@@ -6,7 +6,7 @@ function DogProfile({ doggoToShow, toggleGoodDogStatus }) {
         <img src={doggoToShow.image} alt={doggoToShow.name} />
         <h2>{doggoToShow.name}</h2>
         {doggoToShow.id !== "" && (
-          <button onClick={() => toggleGoodDogStatus(doggoToShow)}>
+          <button onClick={() => toggleIsGoodDog(doggoToShow)}>
             {doggoToShow.isGoodDog ? "Good Dog!" : "Bad Dog!"}
           </button>
         )}
